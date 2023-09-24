@@ -3,8 +3,7 @@ from typing import Dict, List
 from bson import ObjectId
 from fastapi import APIRouter, Body, Path
 
-from src.application.features.product.dtos.create_product_dto import \
-    CreateProductDto
+from src.application.features.product.dtos.create_product_dto import CreateProductDto
 from src.application.features.product.dtos.product_dto import ProductDto
 from src.application.features.product.product_service import ProductService
 from src.persistence.repositories.unit_of_work import UnitOfWork

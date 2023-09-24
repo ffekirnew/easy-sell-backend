@@ -1,7 +1,8 @@
 from typing import Dict
 
-from src.domain.entities.user import User
 from pydantic import BaseModel
+
+from src.domain.entities.user import User
 
 
 class UserDto(BaseModel):

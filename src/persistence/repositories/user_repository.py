@@ -2,8 +2,7 @@ from typing import List
 
 from bson import ObjectId
 
-from src.application.contracts.persistence.abc_user_repository import \
-    ABCUserRepository
+from src.application.contracts.persistence.abc_user_repository import ABCUserRepository
 from src.domain.entities.user import User
 from src.persistence.db_client import DbClient
 from src.persistence.models.user_model import UserModel

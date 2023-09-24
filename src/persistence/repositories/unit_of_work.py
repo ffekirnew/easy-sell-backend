@@ -1,9 +1,8 @@
-from src.application.contracts.persistence.abc_product_repository import \
-    ABCProductRepository
-from src.application.contracts.persistence.abc_unit_of_work import \
-    ABCUnitOfWork
-from src.application.contracts.persistence.abc_user_repository import \
-    ABCUserRepository
+from src.application.contracts.persistence.abc_product_repository import (
+    ABCProductRepository,
+)
+from src.application.contracts.persistence.abc_unit_of_work import ABCUnitOfWork
+from src.application.contracts.persistence.abc_user_repository import ABCUserRepository
 from src.persistence.db_client import DbClient
 from src.persistence.repositories.product_repository import ProductRepository
 from src.persistence.repositories.user_repository import UserRepository

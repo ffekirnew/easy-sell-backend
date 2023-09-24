@@ -3,10 +3,8 @@ from typing import List
 from bson import ObjectId
 
 from src.application.common.responses.base_response import BaseResponse
-from src.application.contracts.persistence.abc_unit_of_work import \
-    ABCUnitOfWork
-from src.application.features.product.dtos.create_product_dto import \
-    CreateProductDto
+from src.application.contracts.persistence.abc_unit_of_work import ABCUnitOfWork
+from src.application.features.product.dtos.create_product_dto import CreateProductDto
 from src.application.features.product.dtos.product_dto import ProductDto
 
 

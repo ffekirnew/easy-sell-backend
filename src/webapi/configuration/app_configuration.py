@@ -10,6 +10,6 @@ config = {
     },
     "MONGO": {
         "CONNECTION_STRING": os.getenv("CONNECTION_STRING"),
-        "DB_NAME": os.getenv("DB_NAME")
+        "DB_NAME": os.getenv("DB_NAME"),
     },
 }

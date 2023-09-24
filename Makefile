@@ -35,6 +35,6 @@ endif
 
 .PHONY: fmt
 fmt:
-	poetry run autoflake --ignore-init-module-imports --remove-all-unused-imports --verbose --remove-unused-variables -r -i app/* tests/*
+	poetry run autoflake --ignore-init-module-imports --remove-all-unused-imports --verbose --remove-unused-variables -r -i src/*
 	poetry run isort .
 	poetry run black .

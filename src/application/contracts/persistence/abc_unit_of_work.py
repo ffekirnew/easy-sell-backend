@@ -1,9 +1,9 @@
 from abc import ABCMeta, abstractmethod
 
-from src.application.contracts.persistence.abc_product_repository import \
-    ABCProductRepository
-from src.application.contracts.persistence.abc_user_repository import \
-    ABCUserRepository
+from src.application.contracts.persistence.abc_product_repository import (
+    ABCProductRepository,
+)
+from src.application.contracts.persistence.abc_user_repository import ABCUserRepository
 
 
 class ABCUnitOfWork(metaclass=ABCMeta):
